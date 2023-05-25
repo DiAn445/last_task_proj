@@ -1,12 +1,21 @@
+version: '3'
 services:
+  frontend:
+    build: .
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
+      - db
+    links:
+      - db:dbserver
   backend:
     tty: true
     depends_on:
-      db:
-        condition: service_healthy
+      - db
     build: .
     ports:
-      - '80:80'
+      -  80:80
     environment:
       - PGUSER=admin
       - PGPASSWORD=password
