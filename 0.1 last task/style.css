@@ -1,0 +1,354 @@
+
+body{
+    font-family: 'Roboto',Arial,sans-serif;
+    box-sizing: border-box;
+    display: flex;
+}
+header{
+    margin: 0;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    height: 75px;
+    box-shadow: 2px 12px 14px -19px #343333;    
+}
+
+.top_menu{
+    position: absolute;
+    width: 1100px;
+    margin-top: 25px;
+    margin-left:390px;
+}
+
+.top_menu a{
+    position: relative;
+    font-family: 'Roboto',Arial,sans-serif;
+    margin-right: 90px;
+    text-decoration: none;
+    font-size: 18px;
+    color:#333333 ;
+    font-weight: 500;
+    
+}
+
+.top_menu a:hover{
+    color:#44a5fa; 
+}
+.top_menu button{
+    position: absolute;
+    height: 40px;
+    width: 170px;
+    border-radius: 30px;
+    color: white;
+    background-color: #44a5fa;
+    border: #44a5fa;
+    margin-left: 70px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: -9px;
+}
+
+
+main{
+    position: relative;
+    max-width: 1440px;
+    align-items:center;
+    margin-top: 120px;
+    margin-left: 140px;
+    flex-direction: row;
+}
+
+.about{
+    margin-top: 40px;
+    height:auto;
+    letter-spacing: 1px;
+    max-width: 775px;
+}
+
+.about strong{
+    font-weight: 700;
+    font-size: 40px;
+    color:rgb(68, 165, 250); 
+    letter-spacing: 0;
+    line-height: 36px;
+}
+
+.stab{
+    line-height: 35px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 70px;
+}
+
+.img2{
+    position: absolute;
+    width: 30px;
+    margin-top: -5px;
+    margin-left:5px;
+}
+.col{
+    margin-top: 40px;
+    line-height: 1px;
+    min-width: auto;
+    position: relative;
+    min-width:auto;
+    width: 500px;
+    height: 100px;
+    
+}
+.col p{
+    width: auto;
+    position: relative;
+    font-weight: 700;
+    color: #44a5fa;
+}
+
+.col p span{
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+}
+
+.p1{
+    position: relative;
+    margin-left: 50px;
+    top: 10px;
+}
+
+.img3{
+    position: absolute;
+    width: 30px;
+    margin-top: 25px;
+    margin-left:5px;
+}
+
+.img4{
+    position: absolute;
+    width: 30px;
+    margin-top: 55px;
+    margin-left:5px;
+}
+
+.p2{
+    width: auto;
+    position: relative;
+    left:50px;
+    top: 40px;
+}
+
+.p3{
+    position: relative;
+    top:70px;
+    left: 50px;
+}
+
+.try{
+    margin-top: 55px;
+    margin-left: 5px;
+    border-radius: 30px;
+    width: 260px;
+    height:55px;
+    background-color: #44a5fa;
+    border: 1px solid #44a5fa;
+    color:white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.otl{
+    color: #44a5fa;
+}
+.otl_u{
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+.dif{
+    margin-top:200px;
+    line-height: 20px;
+}
+
+.img5{
+    position: relative;
+    margin-top:10px;
+    max-width: 100%;
+    width: 1100px;
+    border-radius: 10px;
+}
+
+.start{
+    margin-top: 100px;
+    line-height: 15px;
+}
+.st1{
+    color: #44a5fa;
+}
+
+main{
+    background-image: url(Telegram\ userbot\ api\ -\ Google\ Chrome\ 24.02.2023\ 23_14_35.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: 650px -10px;
+    background-attachment:local;
+}
+
+.fast1{
+    color: #44a5fa;
+    line-height: 20px;
+}
+
+.fast{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 130px;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.links{
+    line-height: 40px;
+    margin-top: 200px;
+}
+
+.sms a{
+    position: absolute;
+    margin-left: 15px;
+    margin-top:-5px;
+    text-decoration: none;
+    color: #44a5fa;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.photo a{
+    position: absolute;
+    margin-left: 15px;
+    margin-top:-5px;
+    text-decoration: none;
+    color: #44a5fa;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.tell a{
+    position: absolute;
+    margin-left: 15px;
+    margin-top:-5px;
+    text-decoration: none;
+    color: #44a5fa;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.input_block{
+    height: 450px;
+    width: 650px;
+    position: absolute;
+    box-shadow: 0px 1px 23px 5px rgb(163 163 163 / 20%);
+    margin-left: 520px;
+    margin-top:-160px;
+    border-radius: 10px;
+}
+
+.search{
+    margin-left:40px;
+    margin-top:50px;
+    color: #44a5fa;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.code{
+    position: absolute;
+    width: 550px;
+    height: 250px;
+    background-color: #333333;
+    margin-left:50px;
+    border-radius: 4px; 
+    margin-top: 60px;
+}
+
+.price{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top:400px;
+    margin-left: auto;
+}
+
+.tarif{
+    margin-top: 430px;
+    margin-left: 520px;
+    color: #44a5fa;
+    font-size: 40px;
+}
+
+.block{
+    border: 0.5px solid black;
+    height: 450px;
+    width: 380px;
+    display: flex ;
+    position: relative;
+    margin-top:140px;
+    margin-left: 420px;
+    box-shadow: 0px 1px 23px 5px rgb(163 163 163 / 20%);
+    border-radius: 15px;
+    flex-direction: column;
+    max-block-size: 0%;
+}
+
+.block img{
+    align-items: center;
+    position: relative;
+    width: 15px;
+    left: 0px;
+}
+
+.block p{
+    
+    line-height: 15px;
+    left: 0px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.count{
+    margin-top: 30px;
+    margin-left: 110px;
+    color: #44a5fa;
+    font-size: 24px;
+}
+
+.choose{
+    margin-left:80px;
+    width:220px;
+    height: 40px;
+    background-color: #44a5fa;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.pay{
+    position: relative;
+    margin-left:310px;
+    height: 100px;
+    margin-top: 10px;
+    align-items: center;
+}
+.wallets{
+    position: relative;
+    max-width: 100%;
+    margin-top: 50px;
+    width: 600px;
+    
+}
+
+
+
+
+
+
+
+

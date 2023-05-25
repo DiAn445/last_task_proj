@@ -1,0 +1,13 @@
+__pycache__
+.idea
+tests
+venv
+draft
+my_account.session
+myapp.session
+myapp.session-journal
+frontend/.idea
+frontend/node_modules
+frontend/public
+frontend/README.md
+frontend/pacakge-lock.json

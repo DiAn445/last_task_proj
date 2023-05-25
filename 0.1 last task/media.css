@@ -1,0 +1,341 @@
+@media only screen and (max-width:1200px){
+    
+    body{
+        margin-left:-50px;
+    }
+    main{
+        margin-left: 270px;
+        
+    }
+    .top_menu{
+        width: 1000px;
+        margin-left: 220px;
+    }
+    .top_menu a{
+        margin-right:80px;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    .top_menu button{
+        width: 160px;
+        margin-left: 0px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .try{
+        margin-top: 120px;
+        width: 500px;
+        font-size: 20px;
+    }
+    .about{
+        width: 700px;
+    }
+    .col{
+        margin-left: 10px;
+        top:5px;
+    }
+    .inter{
+        font-size:18px;
+    }
+    .img2{
+        width: 35px;
+    }
+    .img3{
+        width: 35px;
+    }
+    .img4{
+        width: 35px;
+    }
+    .img5{
+        margin-left: 0px;
+        width: 900px;
+    }
+    main{
+        background-position: -9999px;
+    }
+    .links{
+        margin-top: 120px;
+    }
+    .input_block{
+        margin-left: 160px;
+        margin-top: 50px;
+        width: 600px;
+        height: 300px;
+    }
+    .code{
+        width: 500px;
+        height: 200px;
+    }
+    .block{
+        margin-left: 260px;
+        margin-top: 50px;
+    }
+    .pay{
+        margin-left: 100px;
+    }
+    .wallets{
+        margin-left: 0;
+        width: 700px;
+    }
+    .tb{
+        margin-left:-20px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:800px){
+   body{
+    margin-left: 50px;
+   }
+   
+    main{
+        margin-left: 30px;
+    }
+    .top_menu{
+        margin-left: 35px;
+        width: 650px;
+    }
+    .top_menu a{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .top_menu button{
+        width: 120px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    header{
+        height: 0px;
+    }
+    .try{
+        margin-top: 90px;
+        width: 300px;
+        font-size: 18px;
+    }
+    .about{
+        width: 400px;
+        margin-top: 0px;
+    }
+    .about strong{
+        font-size: 24px;
+    }
+    .stab{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .inter{
+        font-size: 18px;
+    }
+
+    .col{
+        margin-left: 0px;
+        top:5px;
+        font-size:17px;
+    }
+    .img2{
+        margin-left: 0px;
+        width: 35px;
+    }
+    .img3{
+        margin-left: 0px;
+        width: 35px;
+    }
+    .img4{
+        margin-right: 5px;
+        width: 35px;
+    }
+    .img5{
+        width: 700px;
+    }
+    main{
+        background-position: -9999px;
+    }
+    .links{
+        margin-top: 120px;
+    }
+    .input_block{
+        margin-left: 105px;
+        margin-top: 50px;
+        width: 500px;
+        height: 300px;
+    }
+    .code{
+        width: 400px;
+        height: 200px;
+    }
+    .block{
+        margin-left: 155px;
+        margin-top: 50px;
+    }
+    .pay{
+        margin-left: 20px;
+    }
+    .wallets{
+        width: 650px;
+    }
+}
+
+
+
+ @media only screen and (max-width:600px){
+    main{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    header{
+        height: 0px;
+    }
+    .top_menu{
+        display: none;
+    }
+    .try{
+        margin-top: 170px;
+        width: 300px;
+        font-size: 18px;
+    }
+
+    .dif{
+        margin-top: 80px;
+        font-size: 14px;
+    }
+    .about{
+        width: 450px;
+        top:0px;
+    }
+    .col{
+        width: 400px;
+        margin-left: 10px;
+        top:0px;
+    }
+    .img2{
+        width: 35px;
+    }
+    .img3{
+        width: 35px;
+    }
+    .img4{
+        width: 35px;
+    }
+    .img5{
+        width: 600px;
+    }
+    main{
+        background-position: -9999px;
+    }
+    .links{
+        margin-top: 120px;
+    }
+    .input_block{
+        margin-left: 60px;
+        margin-top: 50px;
+        width: 420px;
+        height: 300px;
+    }
+    .code{
+        width: 320px;
+        height: 200px;
+    }
+    .block{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .pay{
+        margin-left:0px;
+    }
+    .wallets{
+        width: 500px;
+    }
+} 
+
+
+
+
+@media only screen and (max-width:400px){
+    main{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    header{
+        height: 0px;
+    }
+    .top_menu{
+        display: none;
+    }
+    .try{
+        margin-top: 170px;
+        width: 300px;
+        font-size: 18px;
+        margin-left: 25px;
+    }
+
+    .dif{
+        margin-top: 80px;
+        font-size: 14px;
+    }
+    .about{
+        width: 380px;
+        top:0px;
+    }
+    .col{
+        width: 300px;
+        margin-left: 10px;
+        top:0px;
+    }
+    .img2{
+        width: 35px;
+    }
+    .img3{
+        width: 35px;
+    }
+    .img4{
+        width: 35px;
+    }
+    .img5{
+        width: 400px;
+    }
+    main{
+        background-position: -9999px;
+    }
+    .fast{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .fst{
+        line-height: 29px;
+    }
+    .links{
+        margin-top: 120px;
+    }
+    .input_block{
+        margin-left: 0px;
+        margin-top: 50px;
+        width: 390px;
+        height: 300px;
+    }
+    .code{
+        margin-left: 45px;
+        width: 310px;
+        height: 210px;
+    }
+    .block{
+        width: 300px;
+
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .choose{
+        margin-left: 70px;
+    }
+    .count{
+        margin-left: 60px;
+    }
+    .pay{
+        margin-left:0px;
+    }
+    .wallets{
+        width: 500px;
+    }
+} 

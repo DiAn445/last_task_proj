@@ -1,0 +1,29 @@
+1 from telethon import TelegramClient, events
+2 from config import DESTINATION, API_ID, API_HASH, SESSION, CHATS, KEY_WORDS
+3
+4
+5 client = TelegramClient(SESSION, API_ID, API_HASH)
+6
+7
+8 if __name__ == '__main__':
+9    print("Program is running...")
+10
+11    @client.on(events.NewMessage(chats=CHATS))
+12    async def new_order(event):
+13        try:
+14            print('Delivery new order...')
+15            contain_key_word = False
+16
+17            for key_word in KEY_WORDS:
+18                if key_word in event.message.message:
+19                    contain_key_word = True
+20
+21            if contain_key_word:
+22                await client.forward_messages(DESTINATION, event.message)
+23
+24        except Exception as ex:
+25            print(f'Exception: {ex}')
+26
+27
+28    client.start()
+29    client.run_until_disconnected()

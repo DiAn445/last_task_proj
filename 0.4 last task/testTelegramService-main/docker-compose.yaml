@@ -1,0 +1,35 @@
+services:
+  backend:
+    tty: true
+    depends_on:
+      db:
+        condition: service_healthy
+    build: .
+    ports:
+      - '80:80'
+    environment:
+      - PGUSER=admin
+      - PGPASSWORD=password
+      - PGDATABASE=testTelegramService
+      - PGHOST=db
+    links:
+      - db:dbserver
+
+  db:
+    image: postgres:latest
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata1:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -d $${POSTGRES_DB} -U $${POSTGRES_USER}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=testTelegramService
+
+volumes:
+  pgdata1: {}

@@ -1,0 +1,127 @@
+for login into client use
+
+login : root
+password: 1234 
+
+API
+ 
+{
+    "Authentication": "Bearer ${your_token}"
+}
+    Take info about instance.
+    Nothing requires and returns
+    
+    {
+        id: integer,
+        phone: string,
+        authoirzed: boolean,
+        code_pending: boolean
+    }
+        
+    Update phone number for your instance.
+    Requires "phone" to `url` params
+    
+    {
+        ok: boolean,
+        info: string
+    }
+    Send code to your Telegram account.
+    Nothing requires and returns
+    
+    {
+        ok: boolean,
+        info: string
+    }
+    Requires 'code' (sent code from Telegram) to `url` params.
+    Complete sign in for instance
+    
+    {
+        ok: boolean,
+        info: string
+    }
+    Nothing requires and returns is instance authenticated
+    
+    {
+        ok: boolean
+    }
+    Log out instance and returns
+    
+    {
+        ok: boolean,
+        info: string
+    }
+    Returns info about your instance
+    
+    {
+        ok: boolean,
+        info: string,
+        **pyrogram.types.User
+    }
+    Update instance information.
+    Can take 'first_name', 'last_name' or 'bio' to `url` params
+    
+    {
+        ok: boolean,
+        info: string
+    }
+    Accept one of 'phone', 'user_id' or 'username' to `url` params.
+    Returns user object fields
+    
+    {
+        ok: boolean,
+        info: string,
+        **pyrogram.types.User
+    }
+    
+    List all instance contacts.
+    If instance not authenticated - empty list
+    
+    [
+        {
+            **pyrogram.types.User
+        }
+    ]
+    Requires 'first_name', 'user_id' and cant accept 'last_name', 'phone' to `url` params
+    
+    {
+        ok: boolean,
+        info: string,
+        **pyrogram.types.User
+    }
+    
+    Returns available chats and nothing requires.
+    
+    [
+        {
+            **pyrogram.types.Chat
+        }
+    ]
+    Creates new group minimum with 2 users.
+    Requires 'chat_name' and 'user_id' to `url` params
+    
+    {
+        ok: boolean,
+        info: string,
+        **pyrogram.types.Chat
+    }
+    Adds new member to group.
+    Requires 'chat_id' and 'user_id' to `url` params
+    
+    {
+        ok: boolean,
+        info: string,
+    }
+    Deletes member from group.
+    Requires 'chat_id' and 'user_id' to `url` params
+    
+    {
+        ok: boolean,
+        info: string,
+    }
+    Write message to chat.
+    Requires 'chat_id' and 'text' to `url` params
+    
+    {
+        ok: boolean,
+        info: string,
+    }

@@ -1,0 +1,4 @@
+1 .idea/
+2 __pycache__/
+3 venv/
+4 orders_session.session 
